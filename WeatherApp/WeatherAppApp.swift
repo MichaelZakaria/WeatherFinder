@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import Alamofire
 
 @main
 struct WeatherAppApp: App {
+    let reachabilityManager = NetworkReachabilityManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if reachabilityManager!.isReachable {
+                ContentView()
+            } else {
+                Text("NO CONNECTION 🛜").opacity(0.5)
+            }
         }
     }
 }

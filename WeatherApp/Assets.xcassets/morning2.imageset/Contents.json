@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ai-generated-scenic-blue-sky-and-clouds-natures-beauty-in-a-captivating-frame-vertical-mobile-wallpaper-free-photo.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
